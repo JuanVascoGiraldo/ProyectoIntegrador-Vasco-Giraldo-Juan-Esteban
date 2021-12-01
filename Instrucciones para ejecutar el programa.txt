@@ -1,0 +1,10 @@
+1. Correr el scrip de la base de datos donde desea que tenga la base de datos
+2. cambiar en los archivos js de la carpeta ruta lo que vienen en el metodo 
+de conexión donde se hace la conexion a la base de datos, lo que es el usuario, la contraseña y cambiar la dirección 
+ip colocar la dirección ip del host
+3. Correr la api hecha en node que se hace colocando el comando de node run dev desde la consola
+que corre el script 'dev' que viene en el package.json que es el archivo de configuración 
+para cerrar el servido 'Ctrl + c', hay que estar dentro de la carpeta de la api para correrlo
+4. la parte de la interjaz esta hecha con jsp, los jsp usan java por lo que se tiene que ejecutar,
+esto se puede hacer desde neatbeans, tiene un servidor apache que es el que tiene esa parte
+5. primero correr la api antes que la interfaz
